@@ -1,0 +1,42 @@
+.table-container {
+  display: grid;
+  margin: auto;
+  max-width: 37rem;
+
+  .table-header {
+    font-size: 3rem;
+    text-align: center;
+  }
+
+  ul {
+    margin-right: 1.45rem;
+    overflow-x: hidden;
+    list-style: none;
+
+    li.row:before {
+      float: left;
+      width: 0;
+      white-space: nowrap;
+      content: ". . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ";
+    }
+
+    .col1 {
+      letter-spacing: 2px;
+      padding-right: 0.5rem;
+      background-color: #ffe6d1;
+    }
+
+    .col2 {
+      float: right;
+      padding-left: 1rem;
+      background-color: #ffe6d1;
+      font-size: 1.1rem;
+    }
+
+    .col2:after {
+      content: "\20b9";
+      font-size: 0.9rem;
+      padding-left: 0.3rem;
+    }
+  }
+}
