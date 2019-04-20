@@ -8,8 +8,8 @@ require("dotenv").config({
 
 module.exports = {
   siteMetadata: {
-    appbarHeader: "Ministry of Bar",
-    title: " Ministry of Bar - Today's special",
+    appbarHeader: "Cafe's Menu card",
+    title: " Cafe's menu card - Today's special",
     author: "Ayush Sharma",
     favicon: "/ico/drinks32x32.png"
   },

@@ -4,7 +4,7 @@ import SimpleTable from "../layouts/simple-table";
 
 const _home = ({ data }) => {
   const menu = {};
-  data.allGoogleSheetDrinksMenuRow.edges.forEach(row => {
+  data.allGoogleSheetCafeMenuRow.edges.forEach(row => {
     menu[row.node.title] = row.node.price;
   });
   return (
@@ -21,7 +21,7 @@ const Home = () => {
     <StaticQuery
       query={graphql`
         query {
-          allGoogleSheetDrinksMenuRow {
+          allGoogleSheetCafeMenuRow {
             edges {
               node {
                 title

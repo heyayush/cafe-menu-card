@@ -3,7 +3,7 @@ import * as React from "react";
 const TableHeader = () => {
   return (
     <React.Fragment>
-      <h1 className="table-header">Gotham Cafe</h1>
+      <h1 className="table-header">Cafe's Menu Card</h1>
     </React.Fragment>
   );
 };
